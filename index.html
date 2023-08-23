@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uploading JSON data from scratch</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style:decimal;
+        }
+        /*Centering the content within body*/
+        body{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        /*Style age*/
+        .person{
+            text-align: center;
+        }
+        .sports{
+          transition: .3s ease;  
+          border-radius: 10px;
+        }
+        .sports:hover{
+          transition: .3s ease;  
+          background: #333;
+            opacity: .75;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Visual representation of the uploaded data-->
+    <h1 class="title">Get to know Kyle and Jackie!</h1>
+    <div class="user_container">
+        <div class="person">
+            <h2 class="user user1"></h2>
+            <p class="age age1"></p>
+            <p class="friends1"></p>
+            <ul class="sports sports1">
+                <li class="sport"></li>
+                <li class="sport"></li>
+                <li class="sport"></li>
+            </ul>
+        </div>
+        <div class="person">
+            <h2 class="user user2"></h2>
+            <p class="age age2"></p>
+            <p class="friends2"></p>
+            <ul class="sports sports2">
+                <li class="sport"></li>
+                <li class="sport"></li>
+                <li class="sport"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src = "index.js"></script>
+</html>

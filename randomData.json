@@ -1,0 +1,42 @@
+{
+    "users" :
+        [
+            {   "id": 1,
+                "firstName" :"Kyle",
+                "lastName"  : "Steele",
+                "age"       : 30,
+                "favorite_sports": ["basketball","swimming","tennis"],
+                "friends" : [{
+                    "firstName":"Ben",
+                    "lastName":"Carson"
+                },{
+                    "firstName":"Kelly",
+                    "lastName":"James"
+                }]
+            },
+            {   "id": 2,
+                "firstName" :"Jackie",
+                "lastName"  : "Mason",
+                "age"       : 22,
+                "favorite_sports": ["skiing","soccer","track"],
+                "friends" : [{
+                    "firstName":"Lilly",
+                    "lastName":"Hurd"
+                },{
+                    "firstName":"Nathan",
+                    "lastName":"Moore"
+                }]
+            }
+        ],
+    "subjects": 
+        [
+            {
+                "id":1,
+                "name":"Math"
+            },
+            {
+                "id":2,
+                "name":"English"
+            }
+        ]
+}
